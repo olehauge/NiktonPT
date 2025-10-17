@@ -1,7 +1,12 @@
 .hero {
+<<<<<<< HEAD
+  background-image: url('/images/hero-image.jpeg');
+=======
   background-image: url('../images/hero-image.jpeg');
+>>>>>>> 0c996b73380832108d67d896c1e43643a971b392
   height: 500px;
   background-size: cover;
+  background-position: center; /* optional but recommended */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,6 +16,8 @@
   padding: 0 20px;
 }
 
+<<<<<<< HEAD
+=======
 .hero h1 {
   font-size: 3rem;
   margin-bottom: 20px;
@@ -35,3 +42,5 @@
   background-color: #333;
   color: #fff;
 }
+
+>>>>>>> 0c996b73380832108d67d896c1e43643a971b392
