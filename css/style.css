@@ -1,9 +1,15 @@
-.hero-section img {
-  background-image: url('../images/hero-image.jpeg');
-  background-size: cover;
-  background-position: center;
-}
-body {
-  margin: 0;
-  padding: 0;
+.hero-section {
+  background-image: url('../images/hero-image.jpeg'); /* your image path */
+  background-size: cover;        /* ensures the image covers the container */
+  background-position: center;   /* keeps image centered */
+  background-repeat: no-repeat;  /* no tiling */
+  
+  width: 100vw;                  /* full viewport width */
+  height: 100vh;                 /* full viewport height */
+  display: flex;                 /* centers content */
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  position: relative;
 }
