@@ -3,7 +3,4 @@ img {
     background-color: #cccccc;
     width: 100vw; /* 100% of the viewport width */
     height: auto;
-    background-position: bottom 100px right 150px;
-    background-repeat: repeat-x;
-    background-size: 50%;
 }
