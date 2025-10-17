@@ -1,12 +1,10 @@
 .hero {
-  background-image: url('../images/hero-image.jpeg');
-  height: 500px;
+  background: #fff url("../images/hero-image.jpeg") center;
   background-size: cover;
-  background-position: center; /* optional but recommended */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  color: white;
+  padding: 5rem;
+  font-family: sans-serif;
   text-align: center;
-  color: #fff;
+  font-size: 1.5em;
+  text-shadow: black 0 0 15px;
 }
