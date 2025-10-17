@@ -8,7 +8,7 @@
 
     /* Hero section */
     .hero {
-      background-image: url('images/hero-image.jpeg'); /* Replace with your path */
+      background-image: url('../images/hero-image.jpeg'); /* Replace with your path */
       background-size: cover;       /* Scale and fill screen */
       background-position: center;  /* Keep image centered */
       background-repeat: no-repeat; /* Prevent tiling */
