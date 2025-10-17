@@ -1,10 +1,5 @@
 .hero-section img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-body {
-  margin: 0;
-  padding: 0;
+  background-image: url('../images/hero-image.jpeg');
+  background-size: cover;
+  background-position: center;
 }
